@@ -1,9 +1,5 @@
-function add(n1: number, n2: number) {
-  return n1 + n2
-}
+const button = document.querySelector('button')!
 
-function printRestult(num: number): void {
-  console.log('Result:' + num)
-}
-
-printRestult(add(5, 12))
+button.addEventListener('click', () => {
+  console.log('clicked!')
+})
